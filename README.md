@@ -44,5 +44,5 @@ Thus, it is recommended to use dynamic parameters regarding traffic flow and to 
 ```
 
 # Paper
-The full-text paper is available on [Github](https://github.com/SunnyBingoMe/sun2017flowaware-github), [Diva](http://urn.kb.se/resolve?urn=urn:nbn:se:bth-15208) and [ResearchGate](https://www.researchgate.net/publication/316940653_Flow-Aware_WPT_k-Nearest_Neighbours_Regression_for_Short-Term_Traffic_Prediction).
+The full-text paper is available on [Github](https://github.com/SunnyBingoMe/sun2017flowaware-github/blob/master/sun2017flowaware-github.pdf), [Diva](http://urn.kb.se/resolve?urn=urn:nbn:se:bth-15208) and [ResearchGate](https://www.researchgate.net/publication/316940653_Flow-Aware_WPT_k-Nearest_Neighbours_Regression_for_Short-Term_Traffic_Prediction).
 
