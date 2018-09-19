@@ -15,13 +15,13 @@ library(ggplot2)
 if(not.exists('analysisSetup')){analysisSetup = NULL}
 flowSegmentResult = NULL
 
-pFile = file('weightNormalizedFloat-v6-neighborInTrain.bin', "rb")
-t = readBin(pFile, n = file.size('weightNormalizedFloat-v6-neighborInTrain.bin')/4, single(), size = 4, endian = "little")
+pFile = file('gpu_raw_results.bin', "rb")
+t = readBin(pFile, n = file.size('gpu_raw_results.bin')/4, single(), size = 4, endian = "little")
 close(pFile)
 
 # index in pd_weightListing: [flowIsGoingDown][flowIndicatorIndex][pred-h][search-h = 0][win = 0][k1 = 0]
 if(1 != length(t)/(algorithmSetup$combinationNrPerTimePointNoPrediction * algorithmSetup$flowSegmentNr * length(algorithmSetup$predictStepLengthListing))){
-    stop('WeightNr wrong: weightNormalizedFloat-v6-neighborInTrain.bin')
+    stop('WeightNr wrong: gpu_raw_results.bin')
 }
 weightListing = t
 
