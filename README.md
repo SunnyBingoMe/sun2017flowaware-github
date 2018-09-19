@@ -4,7 +4,10 @@ We propose weighted parameter tuples (WPT) to calculate weighted average dynamic
 
 # Usage of Code
 Level 1 code is available in repo: [level 1](https://github.com/SunnyBingoMe/code_knn_level1_cuda), which is used to generate parameters' combinations' results.
+Make sure to use flow-aware GPU raw results (flow-segment results).
+
 Level 2 code is available here as R files.
+
 Note: the implementation is not considering the data as stream as it just make the handling of data non-necessaryly more complex than evaluation's requirement, more like an industry software.
 
 
